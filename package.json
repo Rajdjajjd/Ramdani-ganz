@@ -1,17 +1,28 @@
 {
-  "name": "whatsapp-bot",
-  "version": "2.0.0",
-  "description": "Ya Macam Tu lh..🗿",
+  "name": "XBOT",
+  "version": "1.0.0",
+  "description": "Xbot for whatsapp online with termux",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "node index"
   },
-
-  "author": "Franky404",
+  "keywords": [
+    "k"
+  ],
+  "author": "affis junianto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/affisjunianto/botwasapv2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/affisjunianto/botwasapv2/issues"
+  },
+  "homepage": "https://github.com/affisjunianto/botwasapv2/readme",
+  "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "async": "^2.4.1",
@@ -38,15 +49,5 @@
     "yt-search": "^2.8.0",
     "@vitalets/google-translate-api": "^7.0.0",
     "yargs": "^17.0.1"
-
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Franky404/whatsapp-bot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Franky404/whatsapp-bot/issues"
-  },
-  "homepage": "https://github.com/Franky404"
+  }
 }
